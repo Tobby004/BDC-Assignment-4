@@ -1,0 +1,166 @@
+{
+    "sourceFile": "task.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 37,
+            "patches": [
+                {
+                    "date": 1678719531530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678719559802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n ul img {\n     justify-content: end;\n     height: 30px;\n-    margin-left: 40px;\n+    margin-left: 400px;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678719659697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n     background-size: cover;\n }\n ul img {\n     justify-content: end;\n-    height: 30px;\n-    margin-left: 400px;\n+    height: 40px;\n+\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678719952688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,14 @@\n     box-sizing: border-box;\n }\n body {\n \n-    background-image: url(IMG_9863.JPG);\n+    background-image: url(laundry-back.JPG);\n     background-size: cover;\n }\n+header img {\n+    height: 80px;\n+}\n ul img {\n     justify-content: end;\n     height: 40px;\n \n"
+                },
+                {
+                    "date": 1678720010915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n header img {\n     height: 80px;\n }\n ul img {\n-    justify-content: end;\n     height: 40px;\n \n }\n .navbar ul {\n"
+                },
+                {
+                    "date": 1678725723227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,13 @@\n ul img {\n     height: 40px;\n \n }\n+span {\n+    color: blue;\n+    font-size: 20px;\n+    margin-left: 50px;\n+}\n .navbar ul {\n  margin: auto;\n  height: 70px;\n  background-color: white;\n"
+                },
+                {
+                    "date": 1678725743229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n }\n span {\n     color: blue;\n     font-size: 20px;\n-    margin-left: 50px;\n+    margin-left: 200px;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678727384819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n     background-image: url(laundry-back.JPG);\n     background-size: cover;\n }\n-header img {\n+header{\n     height: 80px;\n }\n ul img {\n     height: 40px;\n"
+                },
+                {
+                    "date": 1678727531784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,13 @@\n     height: 80px;\n }\n ul img {\n     height: 40px;\n-\n }\n+ul button {\n+    color: blue;\n+    margin-left: ;\n+}\n span {\n     color: blue;\n     font-size: 20px;\n     margin-left: 200px;\n"
+                },
+                {
+                    "date": 1678727591524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n }\n ul img {\n     height: 40px;\n }\n-ul button {\n+.navbar button {\n     color: blue;\n-    margin-left: ;\n+    margin-left:200px ;\n }\n span {\n     color: blue;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1678727636720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,15 @@\n \n     background-image: url(laundry-back.JPG);\n     background-size: cover;\n }\n-header{\n-    height: 80px;\n-}\n+\n ul img {\n     height: 40px;\n }\n .navbar button {\n-    color: blue;\n-    margin-left:200px ;\n+    color: yellow;\n+    margin-left:400px ;\n }\n span {\n     color: blue;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1678727656816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     height: 40px;\n }\n .navbar button {\n     color: yellow;\n-    margin-left:400px ;\n+    margin-left:350px ;\n }\n span {\n     color: blue;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1678727713106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,12 @@\n ul img {\n     height: 40px;\n }\n .navbar button {\n+    display: flex;\n     color: yellow;\n     margin-left:350px ;\n+    background-color: brown;\n }\n span {\n     color: blue;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1678727777480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n \n ul img {\n     height: 40px;\n }\n-.navbar button {\n-    display: flex;\n+ul d {\n+\n     color: yellow;\n     margin-left:350px ;\n     background-color: brown;\n }\n"
+                },
+                {
+                    "date": 1678727794511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n }\n ul d {\n \n     color: yellow;\n-    margin-left:350px ;\n+    margin-left:300px ;\n     background-color: brown;\n }\n span {\n     color: blue;\n"
+                },
+                {
+                    "date": 1678727817184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n span {\n     color: blue;\n     font-size: 20px;\n-    margin-left: 200px;\n+    margin-left: 270px;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678732648012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,11 @@\n     color: blue;\n     font-size: 20px;\n     margin-left: 270px;\n }\n+span b {\n+    background: yellow;\n+}\n .navbar ul {\n  margin: auto;\n  height: 70px;\n  background-color: white;\n"
+                },
+                {
+                    "date": 1678732695840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,10 @@\n }\n span {\n     color: blue;\n     font-size: 20px;\n-    margin-left: 270px;\n+    margin-left: 290px;\n }\n-span b {\n-    background: yellow;\n-}\n .navbar ul {\n  margin: auto;\n  height: 70px;\n  background-color: white;\n"
+                },
+                {
+                    "date": 1678732743056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n span {\n     color: blue;\n     font-size: 20px;\n-    margin-left: 290px;\n+    margin-left: 310px;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678732811673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n span {\n     color: blue;\n     font-size: 20px;\n-    margin-left: 310px;\n+    justify-content: end;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678732869284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n \n ul img {\n     height: 40px;\n }\n-ul d {\n \n     color: yellow;\n     margin-left:300px ;\n     background-color: brown;\n"
+                },
+                {
+                    "date": 1678777907387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,17 +9,12 @@\n \n ul img {\n     height: 40px;\n }\n-\n-    color: yellow;\n-    margin-left:300px ;\n-    background-color: brown;\n-}\n span {\n     color: blue;\n     font-size: 20px;\n-    justify-content: end;\n+    justify-content: ;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678778198147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,11 @@\n     color: blue;\n     font-size: 20px;\n     justify-content: ;\n }\n+span b {\n+    background-color: ;\n+}\n .navbar ul {\n  margin: auto;\n  height: 70px;\n  background-color: white;\n"
+                },
+                {
+                    "date": 1678778275014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,11 @@\n     color: blue;\n     font-size: 20px;\n     justify-content: ;\n }\n-span b {\n-    background-color: ;\n+span li {\n+    background-color: blue ;\n+    color: white;\n }\n .navbar ul {\n  margin: auto;\n  height: 70px;\n"
+                },
+                {
+                    "date": 1678778293506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     font-size: 20px;\n     justify-content: ;\n }\n span li {\n+    padding: 10px;\n     background-color: blue ;\n     color: white;\n }\n .navbar ul {\n"
+                },
+                {
+                    "date": 1678778321241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n ul img {\n     height: 40px;\n }\n span {\n+    margin-left: 200px;\n     color: blue;\n     font-size: 20px;\n     justify-content: ;\n }\n"
+                },
+                {
+                    "date": 1678814000183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,12 @@\n ul img {\n     height: 40px;\n }\n span {\n-    margin-left: 200px;\n+    margin-left: 300px;\n     color: blue;\n     font-size: 20px;\n-    justify-content: ;\n+    \n }\n span li {\n     padding: 10px;\n     background-color: blue ;\n"
+                },
+                {
+                    "date": 1678814015728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n ul img {\n     height: 40px;\n }\n span {\n-    margin-left: 300px;\n+    margin-left: 330px;\n     color: blue;\n     font-size: 20px;\n     \n }\n"
+                },
+                {
+                    "date": 1678814075717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n ul img {\n     height: 40px;\n }\n span {\n-    margin-left: 330px;\n+    margin-left: 360px;\n     color: blue;\n     font-size: 20px;\n     \n }\n@@ -97,9 +97,9 @@\n }\n .grid-box-2 img{\n     height: 45px;\n     border-radius: 30px;\n-    margin-left: 240px;\n+    margin-left: 250px;\n }\n \n .grid-box-3 {\n     background-color: white;\n"
+                },
+                {
+                    "date": 1678814126750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,12 @@\n     background-size: cover;\n }\n \n ul img {\n-    height: 40px;\n+    height: 50px;\n }\n span {\n-    margin-left: 360px;\n+    margin-left: 390px;\n     color: blue;\n     font-size: 20px;\n     \n }\n"
+                },
+                {
+                    "date": 1678814226493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n ul img {\n     height: 50px;\n }\n span {\n-    margin-left: 390px;\n+    margin-left: 410px;\n     color: blue;\n     font-size: 20px;\n     \n }\n"
+                },
+                {
+                    "date": 1678814411763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     color: white;\n }\n .navbar ul {\n  margin: auto;\n- height: 70px;\n+ padding: ;\n  background-color: white;\n  border-radius: 0px;\n }\n .navbar li {\n"
+                },
+                {
+                    "date": 1678814473553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,13 @@\n }\n span li {\n     padding: 10px;\n     background-color: blue ;\n+    width: 50%;\n     color: white;\n }\n .navbar ul {\n  margin: auto;\n- padding: ;\n  background-color: white;\n  border-radius: 0px;\n }\n .navbar li {\n"
+                },
+                {
+                    "date": 1678814489839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n span li {\n     padding: 10px;\n     background-color: blue ;\n-    width: 50%;\n+    width: 30%;\n     color: white;\n }\n .navbar ul {\n  margin: auto;\n"
+                },
+                {
+                    "date": 1678814508775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n }\n span li {\n     padding: 10px;\n     background-color: blue ;\n-    width: 30%;\n+\n     color: white;\n }\n .navbar ul {\n  margin: auto;\n"
+                },
+                {
+                    "date": 1678814564507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n }\n span li {\n     padding: 10px;\n     background-color: blue ;\n-\n     color: white;\n }\n .navbar ul {\n  margin: auto;\n@@ -45,12 +44,14 @@\n h1 {\n     margin-left: 150px;\n     margin-top: 100px;\n     margin-right: 100px;\n+    color: white;\n }\n h6 {\n     margin-left: 150px;\n     margin-right: 100px;\n+    color: white;\n }\n button {\n     background:blue;\n     color: white;\n"
+                },
+                {
+                    "date": 1678814886296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n \n-    background-image: url(laundry-back.JPG);\n+    background-image: url(IMG_9897.JPG);\n     background-size: cover;\n }\n \n ul img {\n"
+                },
+                {
+                    "date": 1678814980389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     box-sizing: border-box;\n }\n body {\n \n-    background-image: url(IMG_9897.JPG);\n+    background-image: url(IMG_9898.JPG);\n     background-size: cover;\n }\n \n ul img {\n"
+                }
+            ],
+            "date": 1678719531529,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n\n    background-image: url(IMG_9863.JPG);\n    background-size: cover;\n}\nul img {\n    justify-content: end;\n    height: 30px;\n    margin-left: 40px;\n}\n.navbar ul {\n margin: auto;\n height: 70px;\n background-color: white;\n border-radius: 0px;\n}\n.navbar li {\n    display: inline-block;\n}\n.navbar b {\n    margin-right: 30px;\n    color: blue;\n}\n.navbar a {\n    text-decoration: none;\n    padding: 15px;\n    color: black;\n    font-size: 15px;\n    font-weight: bold;\n    font-family: 'Times New Roman', Times, serif;\n}\nh1 {\n    margin-left: 150px;\n    margin-top: 100px;\n    margin-right: 100px;\n}\nh6 {\n    margin-left: 150px;\n    margin-right: 100px;\n}\nbutton {\n    background:blue;\n    color: white;\n    padding: 8px;\n    border: none;\n    width: 120px;\n    margin-left: 150px;\n    border-radius: 10px;\n    margin-bottom: 70px;\n}\nsection{\n    background-color: white;\n    text-align: center;\n    padding-bottom: 20px;\n    height: 100px;\n}\nsection a {\n    text-decoration: none;\n    background-color:gainsboro;\n    border-radius: 2px;\n}\nsection h4 {\n    font-family: sans-serif;\n} \n.grid-container {\n    background-color:white;\n    display: grid;\n    grid-template-columns: 2fr 3fr 2fr;\n}   \n.grid-box-1 {\n    background-color: white;\n    height: 200px;\n    margin-left: 70px;\n    margin-right: 20px;\n}\n.grid-box-1 img{\n    height: 50px;\n    border-radius: 50px;\n    margin-left: 90px;\n}\n.grid-box-2 {\n    height: 200px;\n    background-color: white;\n}\n.grid-box-2 img{\n    height: 45px;\n    border-radius: 30px;\n    margin-left: 240px;\n}\n\n.grid-box-3 {\n    background-color: white;\n    height: 200px;\n    margin-right: 50px;\n}\n.grid-box-3 img {\n    height: 45px;\n    border-radius: 30px;\n    margin-left: 150px;\n}"
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 51,
+            "patches": [
+                {
+                    "date": 1678440371309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1678446369962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,16 @@\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <center><button>Explore Services</button></center>\n    <br>\n-   <section>\n-    <center><a href=\"#\">Our Process</a></center>\n+   <div class=\"box-container\">\n+    <a href=\"#\">Our Process</a>\n     <h3>This is how we work</h3>\n-   \n+    <div class=\"box-1\">\n+    <img src=\"collect.PNG\" height=\"30px\" sizes=\"40px\"> <br>\n+    <b>We Collect Your Clothes</b>\n+    </div>\n+    <div class=\"box-2\"></div>\n+    <div class=\"box-3\"></div>\n+   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678446522261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,12 +24,10 @@\n     <h6> We take care about cleanness of your cloth</h6>\n    <center><button>Explore Services</button></center>\n    <br>\n    <div class=\"box-container\">\n-    <a href=\"#\">Our Process</a>\n-    <h3>This is how we work</h3>\n     <div class=\"box-1\">\n-    <img src=\"collect.PNG\" height=\"30px\" sizes=\"40px\"> <br>\n+    <img src=\"collect.PNG\"> <br>\n     <b>We Collect Your Clothes</b>\n     </div>\n     <div class=\"box-2\"></div>\n     <div class=\"box-3\"></div>\n"
+                },
+                {
+                    "date": 1678446968778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n    <br>\n    <div class=\"box-container\">\n     <div class=\"box-1\">\n     <img src=\"collect.PNG\"> <br>\n-    <b>We Collect Your Clothes</b>\n+    <center><b>We Collect Your Clothes</b></center><b>\n     </div>\n     <div class=\"box-2\"></div>\n     <div class=\"box-3\"></div>\n    </div>\n"
+                },
+                {
+                    "date": 1678447381037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,14 @@\n     <div class=\"box-1\">\n     <img src=\"collect.PNG\"> <br>\n     <center><b>We Collect Your Clothes</b></center><b>\n     </div>\n-    <div class=\"box-2\"></div>\n-    <div class=\"box-3\"></div>\n+    <div class=\"box-2\">\n+        <img src=\"wash.JPG\"> <br>\n+        <center><b>Wash Your Clothes </b></center>\n+    </div>\n+    <div class=\"box-3\">\n+        <img src=\"deliver.PNG\">\n+    </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678447471771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,10 @@\n         <img src=\"wash.JPG\"> <br>\n         <center><b>Wash Your Clothes </b></center>\n     </div>\n     <div class=\"box-3\">\n-        <img src=\"deliver.PNG\">\n+        <img src=\"deliver.PNG\"> <br>\n+        <center><b>Get Delivery</b></center>\n     </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678447894820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,12 @@\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <center><button>Explore Services</button></center>\n    <br>\n+   <section>\n+    <a href=\"#\">Our Process</a>\n+    <h4>This is how we work</h4>\n+   </section>\n    <div class=\"box-container\">\n     <div class=\"box-1\">\n     <img src=\"collect.PNG\"> <br>\n     <center><b>We Collect Your Clothes</b></center><b>\n@@ -33,9 +37,9 @@\n         <img src=\"wash.JPG\"> <br>\n         <center><b>Wash Your Clothes </b></center>\n     </div>\n     <div class=\"box-3\">\n-        <img src=\"deliver.PNG\"> <br>\n+        <img src=\"PNG\"> <br>\n         <center><b>Get Delivery</b></center>\n     </div>\n    </div>\n </body>\n"
+                },
+                {
+                    "date": 1678448013577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,11 +36,11 @@\n     <div class=\"box-2\">\n         <img src=\"wash.JPG\"> <br>\n         <center><b>Wash Your Clothes </b></center>\n     </div>\n-    <div class=\"box-3\">\n+    <div class=\"box3\">\n         <img src=\"PNG\"> <br>\n-        <center><b>Get Delivery</b></center>\n+        <center><b></b></center>\n     </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678448292362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n    <center><button>Explore Services</button></center>\n    <br>\n    <section>\n     <a href=\"#\">Our Process</a>\n-    <h4>This is how we work</h4>\n+    <h2>This is how we work</h2>\n    </section>\n    <div class=\"box-container\">\n     <div class=\"box-1\">\n     <img src=\"collect.PNG\"> <br>\n"
+                },
+                {
+                    "date": 1678448480991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,11 +36,8 @@\n     <div class=\"box-2\">\n         <img src=\"wash.JPG\"> <br>\n         <center><b>Wash Your Clothes </b></center>\n     </div>\n-    <div class=\"box3\">\n-        <img src=\"PNG\"> <br>\n-        <center><b></b></center>\n-    </div>\n+    <div class=\"box3\"></div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678452600464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,8 @@\n     <div class=\"box-2\">\n         <img src=\"wash.JPG\"> <br>\n         <center><b>Wash Your Clothes </b></center>\n     </div>\n-    <div class=\"box3\"></div>\n+    <div class=\"box-3\"></div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678458808563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,17 +27,7 @@\n    <section>\n     <a href=\"#\">Our Process</a>\n     <h2>This is how we work</h2>\n    </section>\n-   <div class=\"box-container\">\n-    <div class=\"box-1\">\n-    <img src=\"collect.PNG\"> <br>\n-    <center><b>We Collect Your Clothes</b></center><b>\n-    </div>\n-    <div class=\"box-2\">\n-        <img src=\"wash.JPG\"> <br>\n-        <center><b>Wash Your Clothes </b></center>\n-    </div>\n-    <div class=\"box-3\"></div>\n-   </div>\n+   \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678459498017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,7 +27,11 @@\n    <section>\n     <a href=\"#\">Our Process</a>\n     <h2>This is how we work</h2>\n    </section>\n-   \n+   <div class=\"grid-container\">\n+    <div class=\"grid-box-1\">We Collect Your Clothes</div>\n+    <div class=\"grid-box-2\">Wash</div>\n+    <div class=\"grid-box-3\">Get Deliver</div>\n+   </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678459909358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,10 @@\n     <a href=\"#\">Our Process</a>\n     <h2>This is how we work</h2>\n    </section>\n    <div class=\"grid-container\">\n-    <div class=\"grid-box-1\">We Collect Your Clothes</div>\n-    <div class=\"grid-box-2\">Wash</div>\n+    <div class=\"grid-box-1\"><img src=\"collect.PNG\"></div>\n+    <div class=\"grid-box-2\"><img src=\"wash.JPG\"></div>\n     <div class=\"grid-box-3\">Get Deliver</div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678460146218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,10 +28,13 @@\n     <a href=\"#\">Our Process</a>\n     <h2>This is how we work</h2>\n    </section>\n    <div class=\"grid-container\">\n-    <div class=\"grid-box-1\"><img src=\"collect.PNG\"></div>\n+    <div class=\"grid-box-1\">\n+        <img src=\"collect.PNG\">\n+        <b>We</b>\n+    </div>\n     <div class=\"grid-box-2\"><img src=\"wash.JPG\"></div>\n-    <div class=\"grid-box-3\">Get Deliver</div>\n+    <div class=\"grid-box-3\">r</div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678460407965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,14 @@\n     <h2>This is how we work</h2>\n    </section>\n    <div class=\"grid-container\">\n     <div class=\"grid-box-1\">\n-        <img src=\"collect.PNG\">\n-        <b>We</b>\n+        <img src=\"collect.PNG\"><br>\n+        <b>We Collect Your Clothes</b>\n     </div>\n-    <div class=\"grid-box-2\"><img src=\"wash.JPG\"></div>\n-    <div class=\"grid-box-3\">r</div>\n+    <div class=\"grid-box-2\">\n+        <img src=\"wash.JPG\">\n+    </div>\n+    <div class=\"grid-box-3\"><img src=\"deliver.PNG\"</div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678461843305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,15 @@\n         <img src=\"collect.PNG\"><br>\n         <b>We Collect Your Clothes</b>\n     </div>\n     <div class=\"grid-box-2\">\n-        <img src=\"wash.JPG\">\n+        <img src=\"wash.JPG\"><br>\n+      <b>Wash Your Clothes</b>\n     </div>\n-    <div class=\"grid-box-3\"><img src=\"deliver.PNG\"</div>\n+    <div class=\"grid-box-3\">\n+        <img src=\"deliver.PNG\"><br>\n+        <b>Get Delivery</b>\n+        <P>The automated process starts as soon as your <br>co</P>\n+    </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678462107980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,13 +34,13 @@\n         <b>We Collect Your Clothes</b>\n     </div>\n     <div class=\"grid-box-2\">\n         <img src=\"wash.JPG\"><br>\n-      <b>Wash Your Clothes</b>\n+      <center><b>Wash Your Clothes</b></center>\n     </div>\n     <div class=\"grid-box-3\">\n         <img src=\"deliver.PNG\"><br>\n-        <b>Get Delivery</b>\n+        <center><b>Get Delivery</b></center>\n         <P>The automated process starts as soon as your <br>co</P>\n     </div>\n    </div>\n </body>\n"
+                },
+                {
+                    "date": 1678462210579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n    </section>\n    <div class=\"grid-container\">\n     <div class=\"grid-box-1\">\n         <img src=\"collect.PNG\"><br>\n-        <b>We Collect Your Clothes</b>\n+        <center><b>We Collect Your Clothes</b></center>\n     </div>\n     <div class=\"grid-box-2\">\n         <img src=\"wash.JPG\"><br>\n       <center><b>Wash Your Clothes</b></center>\n"
+                },
+                {
+                    "date": 1678462789861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,17 +31,19 @@\n    <div class=\"grid-container\">\n     <div class=\"grid-box-1\">\n         <img src=\"collect.PNG\"><br>\n         <center><b>We Collect Your Clothes</b></center>\n+       <p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n     </div>\n     <div class=\"grid-box-2\">\n         <img src=\"wash.JPG\"><br>\n+        <p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n       <center><b>Wash Your Clothes</b></center>\n     </div>\n     <div class=\"grid-box-3\">\n         <img src=\"deliver.PNG\"><br>\n         <center><b>Get Delivery</b></center>\n-        <P>The automated process starts as soon as your <br>co</P>\n+        <P>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n     </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678462957128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,10 +35,10 @@\n        <p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n     </div>\n     <div class=\"grid-box-2\">\n         <img src=\"wash.JPG\"><br>\n-        <p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n       <center><b>Wash Your Clothes</b></center>\n+      The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n     </div>\n     <div class=\"grid-box-3\">\n         <img src=\"deliver.PNG\"><br>\n         <center><b>Get Delivery</b></center>\n"
+                },
+                {
+                    "date": 1678463317864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     </div>\n     <div class=\"grid-box-3\">\n         <img src=\"deliver.PNG\"><br>\n         <center><b>Get Delivery</b></center>\n-        <P>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n+       <center><P>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P></center>\n     </div>\n    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678463445829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,14 +31,14 @@\n    <div class=\"grid-container\">\n     <div class=\"grid-box-1\">\n         <img src=\"collect.PNG\"><br>\n         <center><b>We Collect Your Clothes</b></center>\n-       <p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n+      <center><p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P></center>\n     </div>\n     <div class=\"grid-box-2\">\n         <img src=\"wash.JPG\"><br>\n       <center><b>Wash Your Clothes</b></center>\n-      The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P>\n+     <center><p>The automated process starts as soon as your <br>clothes go into the machine.The outcome is gleaming clothes!</P></center>\n     </div>\n     <div class=\"grid-box-3\">\n         <img src=\"deliver.PNG\"><br>\n         <center><b>Get Delivery</b></center>\n"
+                },
+                {
+                    "date": 1678523074526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n+        <li><b>(08) 728 256 266</b></li>\n        <li><b>Make an Appointment</b></li>\n     </ul>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678523168138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n         <li><b>(08) 728 256 266</b></li>\n-       <li><b>Make an Appointment</b></li>\n+       <li><button>Make an Appointment<button></li>\n     </ul>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n"
+                },
+                {
+                    "date": 1678523322568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,8 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-        <li><b>(08) 728 256 266</b></li>\n-       <li><button>Make an Appointment<button></li>\n     </ul>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n"
+                },
+                {
+                    "date": 1678526998792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     </ul>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n-   <center><button>Explore Services</button></center>\n+   <button>Explore Services</button>\n    <br>\n    <section>\n     <a href=\"#\">Our Process</a>\n     <h2>This is how we work</h2>\n"
+                },
+                {
+                    "date": 1678602762641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     <div class=\"navbar\">\n     <ul>\n         <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"</header>\n         <b>Laundry</b>\n+        <img src=\"collect.PNG\" height=\"40px\"> gfhfgggfggfgfgfg\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n"
+                },
+                {
+                    "date": 1678693368053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,17 +9,18 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"</header>\n+        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"\n+        </header>\n         <b>Laundry</b>\n-        <img src=\"collect.PNG\" height=\"40px\"> gfhfgggfggfgfgfg\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n     </ul>\n+    <b><img src=\"wash.JPG\" height=\"30px\">081460764</b>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678717738100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,17 +10,18 @@\n <body>\n     <div class=\"navbar\">\n     <ul>\n         <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"\n+      <i class=\"fa-regular fa-phone\"></i>\n         </header>\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n     </ul>\n-    <b><img src=\"wash.JPG\" height=\"30px\">081460764</b>\n+    \n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678718321440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,18 +10,17 @@\n <body>\n     <div class=\"navbar\">\n     <ul>\n         <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"\n-      <i class=\"fa-regular fa-phone\"></i>\n         </header>\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n     </ul>\n-    \n+    </div><header></header>\n     </div>\n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678719284361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,19 +9,23 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"\n-        </header>\n+        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n+        \n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-    </ul>\n-    </div><header></header>\n-    </div>\n+        &nbsp;&nbsp;&nbsp;;&nbsp;;\n+        \n+       <img src=\"phone-icon.avif\" height=\"40px\"><b>(08) 728 256 266</b>\n+        </ul>\n+    </header>\n+   </div> \n+    \n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n    <br>\n"
+                },
+                {
+                    "date": 1678719433789,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-        &nbsp;&nbsp;&nbsp;;&nbsp;;\n-        \n+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n        <img src=\"phone-icon.avif\" height=\"40px\"><b>(08) 728 256 266</b>\n         </ul>\n     </header>\n    </div> \n"
+                },
+                {
+                    "date": 1678719531537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n-       <img src=\"phone-icon.avif\" height=\"40px\"><b>(08) 728 256 266</b>\n+       <img src=\"phone-icon.avif\"><b>(08) 728 256 266</b>\n         </ul>\n     </header>\n    </div> \n     \n"
+                },
+                {
+                    "date": 1678719659695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,10 @@\n     <link rel=\"stylesheet\" href=\"task.css\">\n </head>\n <body>\n     <div class=\"navbar\">\n-    <ul>\n         <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n-        \n+            <ul>\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n"
+                },
+                {
+                    "date": 1678719744487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n     <link rel=\"stylesheet\" href=\"task.css\">\n </head>\n <body>\n     <div class=\"navbar\">\n+    <ul>\n         <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n-            <ul>\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n"
+                },
+                {
+                    "date": 1678725576071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>template</title>\n     <link rel=\"stylesheet\" href=\"task.css\">\n+    <script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n@@ -16,10 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n-       <img src=\"phone-icon.avif\"><b>(08) 728 256 266</b>\n+       <span><ion-icon name=\"call-outline\"></ion-icon><b>(08) 728 256 266</b></span>\n         </ul>\n     </header>\n    </div> \n     \n"
+                },
+                {
+                    "date": 1678725723234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><ion-icon name=\"call-outline\"></ion-icon><b>(08) 728 256 266</b></span>\n+       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n         </ul>\n     </header>\n    </div> \n     \n"
+                },
+                {
+                    "date": 1678726176754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,11 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>template</title>\n     <link rel=\"stylesheet\" href=\"task.css\">\n     <script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>\n+    <script src=\"https://cdn.lordicon.com/ritcuqlt.js\"></script>\n+    <link rel=\"stylesheet\" href=\"path/to/font-awesome/css/font-awesome.min.css\">\n+\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n@@ -17,9 +20,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n+       <span><i class=\"fa-duotone fa-phone\"></i> (08) 728 256 266</b></span>\n         </ul>\n     </header>\n    </div> \n     \n"
+                },
+                {
+                    "date": 1678727226503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,8 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>template</title>\n     <link rel=\"stylesheet\" href=\"task.css\">\n     <script type=\"module\" src=\"https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js\"></script>\n-    <script src=\"https://cdn.lordicon.com/ritcuqlt.js\"></script>\n-    <link rel=\"stylesheet\" href=\"path/to/font-awesome/css/font-awesome.min.css\">\n-\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n@@ -20,9 +17,11 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><i class=\"fa-duotone fa-phone\"></i> (08) 728 256 266</b></span>\n+       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n+       <h6>Make an Appointment</h6>\n+\n         </ul>\n     </header>\n    </div> \n     \n"
+                },
+                {
+                    "date": 1678727279937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,14 +18,12 @@\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n        <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n-       <h6>Make an Appointment</h6>\n-\n+       <button>Make an Appointment</button>\n         </ul>\n     </header>\n    </div> \n-    \n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n    <br>\n"
+                },
+                {
+                    "date": 1678727334839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n+        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"></header>\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n@@ -20,9 +20,9 @@\n         <li><a href=\"#\">Contact</a></li>\n        <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n        <button>Make an Appointment</button>\n         </ul>\n-    </header>\n+    \n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678727531782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"></header>\n+        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n@@ -20,9 +20,9 @@\n         <li><a href=\"#\">Contact</a></li>\n        <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n        <button>Make an Appointment</button>\n         </ul>\n-    \n+    </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678727713104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n        <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n-       <button>Make an Appointment</button>\n+       <a>Make an Appointment</button>\n         </ul>\n     </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678727777478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n        <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n-       <a>Make an Appointment</button>\n+       <d>Make an Appointment</button>\n         </ul>\n     </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678732569784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266</b></span>\n-       <d>Make an Appointment</button>\n+       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</span>\n         </ul>\n     </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678732648015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</span>\n+       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</b></span>\n         </ul>\n     </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678777907394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,16 +10,16 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\">\n+        <header<img src=\"laundry logo.jpg\" height=\"50px\">\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-       <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</b></span>\n+  <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</b></span>\n         </ul>\n     </header>\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678777967173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <header<img src=\"laundry logo.jpg\" height=\"50px\">\n+        <img src=\"laundry logo.jpg\" height=\"50px\">\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n"
+                },
+                {
+                    "date": 1678778198143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,11 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-  <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;</b>Make an Appointment</b></span>\n+  <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;<b>Make an Appointment</b></span>\n         </ul>\n-    </header>\n+\n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n     <h6> We take care about cleanness of your cloth</h6>\n    <button>Explore Services</button>\n"
+                },
+                {
+                    "date": 1678778275008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n         <li><a href=\"#\">Blog</a></li>\n         <li><a href=\"#\">Contact</a></li>\n-  <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;<b>Make an Appointment</b></span>\n+  <span><ion-icon name=\"call-outline\"></ion-icon> (08) 728 256 266 &nbsp;<li>Make an Appointment</li></span>\n         </ul>\n \n    </div> \n     <h1> Quality Laundry <br> Service In Your City</h1>\n"
+                },
+                {
+                    "date": 1678814126753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n </head>\n <body>\n     <div class=\"navbar\">\n     <ul>\n-        <img src=\"laundry logo.jpg\" height=\"50px\">\n+        <img src=\"laundry logo.jpg\">\n         <b>Laundry</b>\n         <li><a href=\"#\">Home</a></li>\n         <li><a href=\"#\">About</a></li>\n         <li><a href=\"#\">Services</a></li>\n"
+                }
+            ],
+            "date": 1678440371309,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>template</title>\n    <link rel=\"stylesheet\" href=\"task.css\">\n</head>\n<body>\n    <div class=\"navbar\">\n    <ul>\n        <header class=\"logo\"><img src=\"laundry logo.jpg\" height=\"50px\"</header>\n        <b>Laundry</b>\n        <li><a href=\"#\">Home</a></li>\n        <li><a href=\"#\">About</a></li>\n        <li><a href=\"#\">Services</a></li>\n        <li><a href=\"#\">Blog</a></li>\n        <li><a href=\"#\">Contact</a></li>\n       <li><b>Make an Appointment</b></li>\n    </ul>\n    </div>\n    <h1> Quality Laundry <br> Service In Your City</h1>\n    <h6> We take care about cleanness of your cloth</h6>\n   <center><button>Explore Services</button></center>\n   <br>\n   <section>\n    <center><a href=\"#\">Our Process</a></center>\n    <h3>This is how we work</h3>\n   \n</body>\n</html>"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgrey;
+    background-image: url(IMG_9844.JPG);
+    background-size: cover;
+}
+.navbar ul {
+ margin: auto;
+ height: 70px;
+ background-color: white;
+ border-radius: 20px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar b {
+    margin-right: 30px;
+    color: blue;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li b {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: blue;
+    margin-left: 600px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+h6 {
+    text-align: center;
+    margin-right: 100px;
+    color: white;
+}
+button {
+    background:blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+section a {
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background: lightgray;
+}
+section h3 {
+    text-align: center;
+    font-size: 24px;
+}
+section div {
+   display: inline-flex;
+   padding: 30px;
+   margin-right: 40px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+section{
+    background-color: white;
+    height: 300px;
+}

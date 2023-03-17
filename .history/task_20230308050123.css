@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgrey;
+}
+.navbar ul {
+ margin: auto;
+ background-color: white;
+ padding: 20px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar b {
+    margin-right: 30px;
+    color: blue;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li b {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    margin-left: 400px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h6 {
+    text-align: center;
+    color: white;
+}
+button {
+    background:blue;
+    color: white;
+    padding: 5px;
+    border: none;
+    justify-content: center;
+    border-radius: 10px;
+
+}

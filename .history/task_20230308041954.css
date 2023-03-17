@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffff;
+}
+.navbar ul {
+ margin: auto;
+ background-color: royalblue;
+ padding: 20px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar b {
+    margin-right: 30px;
+    color: blue;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li b {
+    color: black;
+    text-align: center;
+}
